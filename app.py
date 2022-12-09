@@ -24,7 +24,7 @@ import streamlit as st
 # In[2]:
 
 
-s = pd.read_csv ('/Users/michaelkong/Desktop/OPIM-607-201/FinalProject/social_media_usage.csv')
+s = pd.read_csv ('/Users/michaelkong/Desktop/my_app/social_media_usage.csv')
 #print(df)
 
 
