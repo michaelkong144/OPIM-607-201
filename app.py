@@ -24,7 +24,7 @@ import streamlit as st
 # In[2]:
 
 
-s = pd.read_csv ('/Users/michaelkong/Desktop/my_app/social_media_usage.csv')
+s = st.file_uploader("social_media_usage", type=".csv", accept_multiple_files=False)
 #print(df)
 
 
